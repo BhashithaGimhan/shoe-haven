@@ -1,0 +1,49 @@
+.offices-container {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #7ef1f5 0%, #e1ffea22 60%);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  
+.offices-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+  
+.office-list {
+    list-style-type: none;
+    padding: 0;
+}
+  
+  
+.office-item {
+    margin-bottom: 20px;
+}
+  
+  
+.office-name {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.office-location {
+    font-size: 20px;
+    color: #990707;
+    font-weight: 600;
+    text-align: center;
+}
+.office-img{
+    max-width: 100%; 
+    height: auto; 
+    flex: 0; 
+    margin-left: 320px;
+}
