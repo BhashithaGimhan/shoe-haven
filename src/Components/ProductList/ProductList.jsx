@@ -5,7 +5,7 @@ import './ProductList.css';
 function ProductList() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  const [showSearchResults, setShowSearchResults] = useState(false); // State to toggle showing search results
+  const [showSearchResults, setShowSearchResults] = useState(false); 
 
   const filterProducts = () => {
     return all_products.filter(product => {
@@ -15,7 +15,7 @@ function ProductList() {
 
   const handleSearch = () => {
     setSearchResults(filterProducts());
-    setShowSearchResults(true); // Show search results when search is performed
+    setShowSearchResults(true); 
   };
 
   return (

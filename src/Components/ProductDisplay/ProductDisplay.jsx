@@ -39,21 +39,21 @@ const ProductDisplay = (props) => {
                 </div>
             </div>
             <div className="productdisplay-right-description">
-               A lightweight, usually Knitted, pullover shirt, close ... 
+            Step up your style with our shoes! Comfortable, versatile, and crafted with premium materials for all-day wear. Shop now!
             </div>
             <div className="productdisplay-right-size">
                 <h1>Select Size</h1>
                 <div className="productdisplay-right-size">
-                    <div>S</div>
-                    <div>M</div>
-                    <div>L</div>
-                    <div>XL</div>
-                    <div>XXL</div>
+                    <div>1-2</div>
+                    <div>2-5</div>
+                    <div>6-8</div>
+                    <div>8-10</div>
+                    <div>10-14</div>
                 </div>
             </div>
             <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
-            <p className='productdisplay-right-category'><span>Category :</span>Women , T-Shirt, Crop Top</p>
-            <p className='productdisplay-right-category'><span>Tags :</span>Modern, Latest</p>
+            {/* <p className='productdisplay-right-category'><span>Category :</span>Women , T-Shirt, Crop Top</p>
+            <p className='productdisplay-right-category'><span>Tags :</span>Modern, Latest</p> */}
         </div>
     </div>
   )

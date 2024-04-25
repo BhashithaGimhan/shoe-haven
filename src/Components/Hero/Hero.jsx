@@ -13,10 +13,10 @@ const Hero = () => {
             <h2>NEW ARRIVALS ONLY</h2>
             <div>
                 <div className="hero-hand-icon">
-                    <p>New</p>
+                    <p>Hy!</p>
                     <img src={hand_icon} alt=" "/>
                 </div>
-                <p>Collections</p>
+                <p>New Collections</p>
                 <p>For Everyone!!!</p>
             </div>
             <div className="hero-latest-btn">
